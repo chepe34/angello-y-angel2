@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - iMUSIC</title>
+
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+     
+        .contenedor{
+            width: 1024px;
+            height: 768px;
+            border: 2px solid black;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 680px 344px;
+            grid-template-rows: 90px 50px 568px 60px;
+            
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            border: 1px solid black;
+
+        }
+        .header{
+            grid-column: span 2;
+            background-color: rgb(166, 255, 0);
+            font-size: 40px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            line-height: 80px;
+        
+        }
+        .nav{
+            grid-column: span 2;
+            background-color: rgb(21, 21, 36);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .section{
+            background-color: rgb(21, 21, 36);
+            padding: 20px;
+        }
+        .aside{
+            background-color: rgb(12, 12, 12);
+        }
+        .footer{
+            align-content: center;
+            grid-column: span 2;
+            background-color: rgb(166, 255, 0);
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+        }
+
+        nav li{
+            float: left;
+        }
+        nav a {
+            display: block;
+            background-color: rgb(21, 21, 36);
+            text-decoration: none;
+            text-align: center;
+            margin: 8px;
+            color: rgb(166, 255, 0);
+            width: 110px;
+            height: 35px;
+            line-height: 35px;
+            border-radius: 5px;
+        }
+        nav a:hover{
+            background-color: rgb(216, 255, 108);
+            color: black;
+        }
+        .titulo2{
+            font-size: 45px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .texto1{
+            font-size: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="box header"> iMUSIC </div>
+
+        <div class="box nav"> 
+            <nav>
+                <ul>
+                    <li> <a href="gorillaz.html">Gorillaz</a> </li>
+                    <li> <a href="theweeknd.html">The Weeknd</a> </li>
+                    <li> <a href="billie.html">Billie Eilish</a> </li>
+                    <li> <a href="caifanes.html">Caifanes</a> </li>
+                    <li> <a href="luismiguel.html">Luis Miguel</a> </li>
+                    <li> <a href="daftpunk.html">Daft Punk</a> </li>
+                </ul>   
+            </nav>
+        </div>
+
+        <div class="box section"> 
+            <section>
+                <br>
+                <span class="titulo2">Bienvenidos a iMUSIC</span>
+                <br><br>
+                <span class="texto1">
+                    Explora las letras, música e historia de tus artistas favoritos. Selecciona un artista en el menú de navegación superior para comenzar tu viaje musical.<br>
+                    <img src="lizz.jpg" width="35%> height="auto"><br>
+                </span>
+            </section>
+        </div>
+
+        <div class="box aside"> 
+            <aside>
+                <img src="ANUNCIO 1.png" width="70%" height="auto"><br><br>
+                <img src="im1.jpg" width="50%" height="auto">
+                </aside>
+        </div>
+
+        <div class="box footer"> 
+            <footer> © 2026 iMUSIC| Todos los derechos reservados </footer>
+        </div>
+    </div>
+</body>
+</html>
